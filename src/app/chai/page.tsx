@@ -7,7 +7,9 @@ export default function Page() {
       <button className="bg-blue-600 text-white px-4 py-2 rounded-lg my-4 hover:bg-blue-700">
         Button
       </button>
-      <Button>Shadcn</Button>
+      <Button variant="chai" size="lg">
+        Shadcn
+      </Button>
     </main>
   );
 }
